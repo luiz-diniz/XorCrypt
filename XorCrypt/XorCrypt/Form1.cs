@@ -28,29 +28,34 @@ namespace XorCrypt
                 char c = (char)random.Next(50, 100);
                 keyText.Add(c);
             }
-
             txtKey.Text = new string(keyText.ToArray());
         }
 
         private void btnMsg_Click(object sender, EventArgs e)
         {
-            if (txtKey.Text.Length > txtMsg.Text.Length)
+            if (!(txtKey.Text.Trim() == ""))
             {
-                List<char> encryptedText = new List<char>();
-                int i = 0;
-
-                foreach(char c in txtMsg.Text)
+                if (txtKey.Text.Length > txtMsg.Text.Length)
                 {
-                    int character = c ^ txtKey.Text[i];
-                    encryptedText.Add((char)character);
-                    i++;
-                }
+                    List<char> encryptedText = new List<char>();
+                    int i = 0;
 
-                txtMsg.Text = new string(encryptedText.ToArray());
+                    foreach (char c in txtMsg.Text)
+                    {
+                        int character = c ^ txtKey.Text[i];
+                        encryptedText.Add((char)character);
+                        i++;
+                    }
+                    txtMsg.Text = new string(encryptedText.ToArray());
+                }
+                else
+                {
+                    MessageBox.Show("The key must be larger than the message !", "Fatal Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else
             {
-                MessageBox.Show("The key must be larger than the message !","Fatal Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("Cannot Encrypt/Decrypt the message without a key.", "Fatal Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
