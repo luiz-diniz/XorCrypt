@@ -7,3 +7,13 @@ C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.Properties.Resou
 C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.csproj.GenerateResource.cache
 C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.exe
 C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.pdb
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\bin\Debug\XorCrypt.exe.config
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\bin\Debug\XorCrypt.exe
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\bin\Debug\XorCrypt.pdb
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.csprojAssemblyReference.cache
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.Form1.resources
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.Properties.Resources.resources
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.csproj.GenerateResource.cache
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.csproj.CoreCompileInputs.cache
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.exe
+C:\Users\ldiniz\Documents\Mine\XorCrypt\XorCrypt\obj\Debug\XorCrypt.pdb
