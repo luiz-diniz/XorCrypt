@@ -1,0 +1,9 @@
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\bin\Debug\XorCrypt.exe.config
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\bin\Debug\XorCrypt.exe
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\bin\Debug\XorCrypt.pdb
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.csprojAssemblyReference.cache
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.Form1.resources
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.Properties.Resources.resources
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.csproj.GenerateResource.cache
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.exe
+C:\Users\Luiz\source\repos\XorCrypt\XorCrypt\obj\Debug\XorCrypt.pdb
