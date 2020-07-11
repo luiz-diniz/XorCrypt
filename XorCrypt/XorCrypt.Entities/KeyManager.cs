@@ -12,21 +12,28 @@ namespace XorCrypt.Entities
 
         public KeyManager(int keySize)
         {
-            this.keySize = keySize;
+            this.keySize = keySize;        
         }
 
         public string GenerateKey()
         {
-            List<char> keyText = new List<char>();
-            Random random = new Random();
-
-            for (int i = 0; i < keySize; i++)
+            if(keySize > 0)
             {
-                char c = (char)random.Next(_initialRangeValue, _finalValueRangeValue);
-                keyText.Add(c);
-            }
+                List<char> keyText = new List<char>();
+                Random random = new Random();
 
-            return new string (keyText.ToArray());
+                for (int i = 0; i < keySize; i++)
+                {
+                    char c = (char)random.Next(_initialRangeValue, _finalValueRangeValue);
+                    keyText.Add(c);
+                }
+
+                return new string(keyText.ToArray()); 
+            }
+            else
+            {
+                throw new Exception("The key size must he higher than the 0.");
+            }
         }
     }
 }

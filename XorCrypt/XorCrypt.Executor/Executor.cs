@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using XorCrypt.Entities;
 
 namespace XorCrypt.Executor
 {
-    public static class Executor
+    public class Executor
     {
         public static string GenerateKey(int keySize)
         {
@@ -17,6 +13,20 @@ namespace XorCrypt.Executor
                 return keyManager.GenerateKey();
             }
             catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public static string EncryptDecryptText(string key, string text)
+        {
+            try
+            {
+                XOR xor = new XOR(key, text);
+                string finalText = xor.EncryptDecrypt();
+                return finalText;
+            }
+            catch(Exception ex)
             {
                 throw ex;
             }

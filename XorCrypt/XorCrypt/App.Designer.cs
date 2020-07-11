@@ -46,44 +46,44 @@
             // 
             // btnKey
             // 
-            this.btnKey.Location = new System.Drawing.Point(15, 89);
+            this.btnKey.Location = new System.Drawing.Point(12, 27);
             this.btnKey.Name = "btnKey";
             this.btnKey.Size = new System.Drawing.Size(148, 34);
-            this.btnKey.TabIndex = 1;
+            this.btnKey.TabIndex = 0;
             this.btnKey.Text = "Generate Key";
             this.btnKey.UseVisualStyleBackColor = true;
             this.btnKey.Click += new System.EventHandler(this.btnKey_Click);
             // 
             // btnEncryptDecrypt
             // 
-            this.btnEncryptDecrypt.Location = new System.Drawing.Point(12, 232);
+            this.btnEncryptDecrypt.Location = new System.Drawing.Point(12, 150);
             this.btnEncryptDecrypt.Name = "btnEncryptDecrypt";
             this.btnEncryptDecrypt.Size = new System.Drawing.Size(148, 34);
-            this.btnEncryptDecrypt.TabIndex = 5;
-            this.btnEncryptDecrypt.Text = "Encrypt/Decrypt Message";
+            this.btnEncryptDecrypt.TabIndex = 4;
+            this.btnEncryptDecrypt.Text = "Encrypt/Decrypt Text";
             this.btnEncryptDecrypt.UseVisualStyleBackColor = true;
             this.btnEncryptDecrypt.Click += new System.EventHandler(this.btnEncryptDecrypt_Click);
             // 
             // txtEncryptDecrypt
             // 
-            this.txtEncryptDecrypt.Location = new System.Drawing.Point(166, 202);
+            this.txtEncryptDecrypt.Location = new System.Drawing.Point(166, 150);
             this.txtEncryptDecrypt.Multiline = true;
             this.txtEncryptDecrypt.Name = "txtEncryptDecrypt";
             this.txtEncryptDecrypt.Size = new System.Drawing.Size(344, 97);
-            this.txtEncryptDecrypt.TabIndex = 4;
+            this.txtEncryptDecrypt.TabIndex = 5;
             // 
             // txtKey
             // 
-            this.txtKey.Location = new System.Drawing.Point(166, 89);
+            this.txtKey.Location = new System.Drawing.Point(166, 27);
             this.txtKey.Multiline = true;
             this.txtKey.Name = "txtKey";
             this.txtKey.Size = new System.Drawing.Size(344, 97);
-            this.txtKey.TabIndex = 6;
+            this.txtKey.TabIndex = 3;
             // 
             // lblKeySize
             // 
             this.lblKeySize.AutoSize = true;
-            this.lblKeySize.Location = new System.Drawing.Point(187, 47);
+            this.lblKeySize.Location = new System.Drawing.Point(12, 103);
             this.lblKeySize.Name = "lblKeySize";
             this.lblKeySize.Size = new System.Drawing.Size(48, 13);
             this.lblKeySize.TabIndex = 7;
@@ -91,11 +91,10 @@
             // 
             // txtKeySize
             // 
-            this.txtKeySize.Location = new System.Drawing.Point(190, 63);
+            this.txtKeySize.Location = new System.Drawing.Point(66, 100);
             this.txtKeySize.Name = "txtKeySize";
             this.txtKeySize.Size = new System.Drawing.Size(62, 20);
-            this.txtKeySize.TabIndex = 8;
-            this.txtKeySize.Text = "50";
+            this.txtKeySize.TabIndex = 2;
             // 
             // menuStrip1
             // 
@@ -122,12 +121,14 @@
             this.smInstructions.Name = "smInstructions";
             this.smInstructions.Size = new System.Drawing.Size(187, 22);
             this.smInstructions.Text = "Instructions";
+            this.smInstructions.Click += new System.EventHandler(this.smInstructions_Click);
             // 
             // smReport
             // 
             this.smReport.Name = "smReport";
             this.smReport.Size = new System.Drawing.Size(187, 22);
             this.smReport.Text = "Report Bugs - GitHub";
+            this.smReport.Click += new System.EventHandler(this.smReport_Click);
             // 
             // exitToolStripMenuItem
             // 
@@ -139,19 +140,21 @@
             // lblAutoSizeKey
             // 
             this.lblAutoSizeKey.AutoSize = true;
-            this.lblAutoSizeKey.Location = new System.Drawing.Point(187, 23);
+            this.lblAutoSizeKey.Location = new System.Drawing.Point(12, 74);
             this.lblAutoSizeKey.Name = "lblAutoSizeKey";
-            this.lblAutoSizeKey.Size = new System.Drawing.Size(73, 13);
+            this.lblAutoSizeKey.Size = new System.Drawing.Size(70, 13);
             this.lblAutoSizeKey.TabIndex = 10;
-            this.lblAutoSizeKey.Text = "Auto Size Key";
+            this.lblAutoSizeKey.Text = "AutoSize Key";
             // 
             // cbAutoSizeKey
             // 
             this.cbAutoSizeKey.AutoSize = true;
-            this.cbAutoSizeKey.Location = new System.Drawing.Point(266, 23);
+            this.cbAutoSizeKey.Checked = true;
+            this.cbAutoSizeKey.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbAutoSizeKey.Location = new System.Drawing.Point(88, 74);
             this.cbAutoSizeKey.Name = "cbAutoSizeKey";
             this.cbAutoSizeKey.Size = new System.Drawing.Size(15, 14);
-            this.cbAutoSizeKey.TabIndex = 11;
+            this.cbAutoSizeKey.TabIndex = 1;
             this.cbAutoSizeKey.UseVisualStyleBackColor = true;
             this.cbAutoSizeKey.CheckedChanged += new System.EventHandler(this.cbAutoSizeKey_CheckedChanged);
             // 
@@ -159,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(518, 311);
+            this.ClientSize = new System.Drawing.Size(518, 255);
             this.Controls.Add(this.cbAutoSizeKey);
             this.Controls.Add(this.lblAutoSizeKey);
             this.Controls.Add(this.txtKeySize);

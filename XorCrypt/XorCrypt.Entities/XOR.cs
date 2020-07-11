@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using XorCrypt.Exceptions;
 
 namespace XorCrypt.Entities
@@ -9,10 +10,14 @@ namespace XorCrypt.Entities
         public string key { get; set; }
         public string text { get; set; }
 
+        private List<char> _encryptedText;
+
         public XOR(string key, string text)
         {
             this.key = key;
             this.text = text;
+
+            _encryptedText = new List<char>();
         }
 
         public string EncryptDecrypt()
@@ -21,20 +26,20 @@ namespace XorCrypt.Entities
             {
                 if (key.Length >= text.Length)
                 {
-                    List<char> encryptedText = new List<char>();                
+                    int i = 0;
 
-                    for (int i = 0; i < text.Length; i++)
+                    foreach (char c in text)
                     {
-                        int character = text[i] ^ key[i];
-                        encryptedText.Add((char)character);
+                        int character = c ^ key[i];
+                        _encryptedText.Add((char)character);
                         i++;
                     }
 
-                    return encryptedText.ToString();
+                    return new string(_encryptedText.ToArray());
                 }
                 else
                 {
-                    throw new InvalidConfigurationException("The key must be larger than the message !");
+                    throw new InvalidConfigurationException("The key must be larger than the text.");
                 }
             }
             else
