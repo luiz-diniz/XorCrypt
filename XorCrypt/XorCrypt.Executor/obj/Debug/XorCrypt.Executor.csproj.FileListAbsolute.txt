@@ -1,0 +1,11 @@
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\bin\Debug\XorCrypt.Executor.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\bin\Debug\XorCrypt.Executor.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\obj\Debug\XorCrypt.Executor.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\obj\Debug\XorCrypt.Executor.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\obj\Debug\XorCrypt.Executor.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\bin\Debug\XorCrypt.Entities.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\bin\Debug\XorCrypt.Exceptions.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\bin\Debug\XorCrypt.Entities.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\bin\Debug\XorCrypt.Exceptions.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\obj\Debug\XorCrypt.Executor.csprojAssemblyReference.cache
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Executor\obj\Debug\XorCrypt.Executor.csproj.CopyComplete

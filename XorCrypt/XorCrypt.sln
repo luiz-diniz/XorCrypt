@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorCrypt", "XorCrypt\XorCrypt.csproj", "{8C94BFC2-26A6-4EC6-AE73-7BD6137796C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorCrypt.Entities", "XorCrypt.Entities\XorCrypt.Entities.csproj", "{F4C85340-EE11-48D0-B874-1EEDAC706BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorCrypt.Exceptions", "XorCrypt.Exceptions\XorCrypt.Exceptions.csproj", "{9BAA5105-6126-43C5-AB28-3164FC157D79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XorCrypt.Executor", "XorCrypt.Executor\XorCrypt.Executor.csproj", "{6EBF50D9-F3ED-4B2B-A823-9B5D62558389}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{8C94BFC2-26A6-4EC6-AE73-7BD6137796C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C94BFC2-26A6-4EC6-AE73-7BD6137796C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C94BFC2-26A6-4EC6-AE73-7BD6137796C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C85340-EE11-48D0-B874-1EEDAC706BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C85340-EE11-48D0-B874-1EEDAC706BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C85340-EE11-48D0-B874-1EEDAC706BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C85340-EE11-48D0-B874-1EEDAC706BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAA5105-6126-43C5-AB28-3164FC157D79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAA5105-6126-43C5-AB28-3164FC157D79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAA5105-6126-43C5-AB28-3164FC157D79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAA5105-6126-43C5-AB28-3164FC157D79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBF50D9-F3ED-4B2B-A823-9B5D62558389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBF50D9-F3ED-4B2B-A823-9B5D62558389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBF50D9-F3ED-4B2B-A823-9B5D62558389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBF50D9-F3ED-4B2B-A823-9B5D62558389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,9 @@
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\bin\Debug\XorCrypt.Entities.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\bin\Debug\XorCrypt.Entities.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\bin\Debug\XorCrypt.Exceptions.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\bin\Debug\XorCrypt.Exceptions.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\obj\Debug\XorCrypt.Entities.csprojAssemblyReference.cache
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\obj\Debug\XorCrypt.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\obj\Debug\XorCrypt.Entities.csproj.CopyComplete
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\obj\Debug\XorCrypt.Entities.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Entities\obj\Debug\XorCrypt.Entities.pdb

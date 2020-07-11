@@ -1,0 +1,6 @@
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Exceptions\bin\Debug\XorCrypt.Exceptions.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Exceptions\bin\Debug\XorCrypt.Exceptions.pdb
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Exceptions\obj\Debug\XorCrypt.Exceptions.csprojAssemblyReference.cache
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Exceptions\obj\Debug\XorCrypt.Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Exceptions\obj\Debug\XorCrypt.Exceptions.dll
+C:\Users\Luiz\Desktop\DEV\C#\XorCrypt\XorCrypt\XorCrypt.Exceptions\obj\Debug\XorCrypt.Exceptions.pdb
