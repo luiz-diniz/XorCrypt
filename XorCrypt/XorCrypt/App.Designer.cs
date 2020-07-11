@@ -36,7 +36,6 @@
             this.txtKeySize = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.smHelp = new System.Windows.Forms.ToolStripMenuItem();
-            this.smInstructions = new System.Windows.Forms.ToolStripMenuItem();
             this.smReport = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblAutoSizeKey = new System.Windows.Forms.Label();
@@ -110,24 +109,16 @@
             // smHelp
             // 
             this.smHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.smInstructions,
             this.smReport});
             this.smHelp.Name = "smHelp";
             this.smHelp.Size = new System.Drawing.Size(44, 20);
             this.smHelp.Text = "Help";
             // 
-            // smInstructions
-            // 
-            this.smInstructions.Name = "smInstructions";
-            this.smInstructions.Size = new System.Drawing.Size(187, 22);
-            this.smInstructions.Text = "Instructions";
-            this.smInstructions.Click += new System.EventHandler(this.smInstructions_Click);
-            // 
             // smReport
             // 
             this.smReport.Name = "smReport";
-            this.smReport.Size = new System.Drawing.Size(187, 22);
-            this.smReport.Text = "Report Bugs - GitHub";
+            this.smReport.Size = new System.Drawing.Size(180, 22);
+            this.smReport.Text = "GitHub";
             this.smReport.Click += new System.EventHandler(this.smReport_Click);
             // 
             // exitToolStripMenuItem
@@ -194,7 +185,6 @@
         private System.Windows.Forms.TextBox txtKeySize;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem smHelp;
-        private System.Windows.Forms.ToolStripMenuItem smInstructions;
         private System.Windows.Forms.ToolStripMenuItem smReport;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Label lblAutoSizeKey;

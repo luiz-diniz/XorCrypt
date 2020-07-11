@@ -77,12 +77,5 @@ namespace XorCrypt
         {
             System.Diagnostics.Process.Start("https://github.com/luiz-diniz/XorCrypt");
         }
-
-        private void smInstructions_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("1. Write the text you wanna Ecrypt/Decrypt.\n\n2. Generate a key that will Ecrypt/Decrypt the text.\n" +
-                "   2.1 You can generate an auto size key or define the size manually. I recommend to use the AutoSize Feature if you don't know the size of the text.\n\n" +
-                "3. Once you have the key, you just have to Encrypt/Decrypt the text.", "Instructions", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
     }
 }
